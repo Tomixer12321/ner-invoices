@@ -1,0 +1,47 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.6,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"319e025",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      "B-BUY_G",
+      "B-BUY_N",
+      "B-GSTL",
+      "B-INV_DL",
+      "B-INV_DT",
+      "B-INV_L",
+      "B-INV_NO",
+      "B-SUPP_G",
+      "B-SUPP_N",
+      "I-BUY_N",
+      "I-GSTL",
+      "I-INV_L",
+      "I-INV_NO",
+      "I-SUPP_N",
+      "O"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}
