@@ -2,4 +2,4 @@ pandas
 scikit-learn
 joblib
 spacy
-                       
+torch==2.0.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html
